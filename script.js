@@ -33,28 +33,28 @@ function getWeather(arg1, arg2) {
     tempInC = Math.floor((tempInF - 32) / 1.8);
     $("#temp").html("The temperature is currently " + tempInF + "&deg; <a href='#' title='Click here for Celcius'>F</a>");
     $("#condition").html(" with " + json.currently.summary);
-    switch (json.currently.icon) {
+    switch (json.currently.icon) { // TODO: Fix the background image links
       case "clear-night":
       case "clear-day":
       case "wind":
-        document.body.style.backgroundImage = "url('https://c1.staticflickr.com/5/4240/35394511625_07063e2c1c_o.gif')";
+        document.body.style.backgroundImage = "url('https://picsum.photos/1500/1500')";
         break;
       case "rain":
       case "snow":
       case "sleet":
       case "hail":
-        document.body.style.backgroundImage = "url('https://c1.staticflickr.com/5/4236/35394427365_304476ea5a_o.gif')";
-        break;
+        document.body.style.backgroundImage = "url('https://picsum.photos/1500/1500')";
+      break;
       case "partly-cloudy-day":
       case "partly-cloudy-night":
       case "cloudy":
       case "fog":
-        document.body.style.backgroundImage = "url('https://c1.staticflickr.com/5/4236/35265105241_a77c0660b2_o.gif')";
-        break;
+        document.body.style.backgroundImage = "url('https://picsum.photos/1500/1500')";
+      break;
       case "thunderstorm":
       case "tornado":
-        document.body.style.backgroundImage = "url('https://c1.staticflickr.com/5/4199/35394512745_8932982010_o.gif')";
-        break;
+        document.body.style.backgroundImage = "url('https://picsum.photos/1500/1500')";
+      break;
     }
   });
 }

@@ -6,9 +6,13 @@ h1 {
 body {
   background-color: #000;
   background-size: cover;
-  background-position: center;
   color: #fff;
   text-shadow: 1px 1px #000;
+}
+
+/* TODO: fix the wrapper spacing and alignment */
+main {
+  background: rgba(8,8,8,0.3);
 }
 
 .tempchanges {
@@ -24,7 +28,9 @@ body {
   color: #fff;
 }
 
+/* TODO: fix the wrapper spacing and alignment */
 footer {
+  background: rgba(8,8,8,0.3);
   text-align: center;
   text-shadow: 1px 1px #000;
 }

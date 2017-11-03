@@ -1,0 +1,39 @@
+h1 {
+  text-align: center;
+  text-shadow: 1px 1px #000;
+}
+
+body {
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-shadow: 1px 1px #000;
+}
+
+.tempchanges {
+  text-align: center;
+}
+
+#temp, #condition {
+  font-size: 1.4em;
+  text-shadow: 1px 1px #000;
+}
+
+#temp a {
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+  text-shadow: 1px 1px #000;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
